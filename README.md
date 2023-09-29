@@ -2,6 +2,7 @@
 Breast Mammogram Dataset with Annotations
 
 PNG images of 496 Breast Mammograms collected from local hospitals in Sri Lanka are presented in the dataset.
+The dataset is already divided into a train and validation set of 80-20 ratio randomly. 
 
 Annotations are done according to the following four classes:
 1. Benign Mass
