@@ -6,3 +6,4 @@ Steps to follow:
 3. Install requirements.txt to the current environment
 4. Run the "dataset-preparation-frcnn" script (make sure to adjust the dataset location)
 5. train.csv, val.csv, annotations.txt, and annotations-val.txt files will be automatically created in the working directory
+6. clone the keras frcnn repository: git clone https://github.com/kbardool/keras-frcnn.git 
