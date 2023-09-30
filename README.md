@@ -30,7 +30,7 @@ Annotations are done according to the following four classes:
   </tr>
 </table>
 
-<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/59dbbfc7-921d-420d-a383-3195f3028e58" alt="Class Distribution Chart" width="500px">
+<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/59dbbfc7-921d-420d-a383-3195f3028e58" alt="Class Distribution Chart" width="800px">
 
 The bounding box annotations of the lesions are presented in:
 1. Yolo 1.1 format
@@ -40,6 +40,9 @@ The bounding box annotations of the lesions are presented in:
 
 Segmentation Polygon Mask annotations are presented in:
 1. VGG format
+
+Bounding Box annotations example:
+<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/7493bb53-86b0-4741-8e8a-4a0404243bc9" alt="BBox annotation example" width="500px">
 
 To Pre-process data before training, ```preprocess.py``` could be used
 Here is a sample pre-processing pipeline used during benchmarking
