@@ -18,13 +18,16 @@
 8. **train.csv**, **val.csv**, **annotations.txt**, and **annotations-val.txt** files will be automatically created in the working directory.
 
 # Training the Dataset
-10. cd to the **FasterRCNN** folder and clone the keras-frcnn repository inside it.
+9. cd to the **FasterRCNN** folder and clone the keras-frcnn repository inside it.
    ```
    git clone https://github.com/kbardool/keras-frcnn.git
    ```
-11. cd to the cloned repository: ```cd tf-keras-frcnn```
-12. Train the model selecting suitable hyperparameters. The editable paramaters are listed below
-13. 
-Example: ```python train_frcnn.py -o simple -p annotate.txt```
- 
+10. cd to the cloned repository: ```cd tf-keras-frcnn```
+11. Copy the **train.csv**, **val.csv**, **annotations.txt** files inside this folder
+12. Train the model by selecting suitable hyperparameters. The editable paramaters are listed below
+ ![parameters](https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/5e3b94e9-3de9-47aa-a9b4-2bcfd239f7c1)
 
+Example: 
+```
+python train_frcnn.py -p annotations.txt -o simple --num_epochs 5  
+```
