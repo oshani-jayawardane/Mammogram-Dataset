@@ -12,7 +12,7 @@
    ```
 
 # Preparing the Dataset
-5. Create two folders **train_images** and **val_images** and save the training and validation images in the two folders respectively.
+5. Create a folder **dataset** and within that folder create two subfolders **train** and **val** and save the training and validation images in the two folders respectively.
 6. Add annotation files of the form OpenImage-v6 to the two folders **train** and **val** under the **labels** folder.
 7. Run the **dataset-preparation-frcnn** script (make sure to adjust the dataset location).
 8. **train.csv**, **val.csv**, **annotations.txt**, and **annotations-val.txt** files will be automatically created in the working directory.
