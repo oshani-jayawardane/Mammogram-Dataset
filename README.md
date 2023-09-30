@@ -30,8 +30,7 @@ Annotations are done according to the following four classes:
   </tr>
 </table>
 
-![class-dist2](https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/59dbbfc7-921d-420d-a383-3195f3028e58)
-
+<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/59dbbfc7-921d-420d-a383-3195f3028e58" alt="Class Distribution Chart" width="500px">
 
 The bounding box annotations of the lesions are presented in:
 1. Yolo 1.1 format
