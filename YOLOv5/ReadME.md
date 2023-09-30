@@ -22,10 +22,8 @@ https://drive.google.com/file/d/1zZMkmX52RBOUfQDQkknZLU5sWAQms6ua/view?usp=drive
         </tr>
      <tr>
           <td>Loss Curves</td>
-          <td><img src="![results](https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/1c901399-852b-46e4-81bf-e9ebc26a1aa2)
-" alt="Before Preprocessing"></td>
-          <td><img src="![results](https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/6fbf9b54-7a2b-4e3d-9abd-baae150024e6)
-" alt="After Preprocessing"></td>
+          <td><img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/1c901399-852b-46e4-81bf-e9ebc26a1aa2" alt="Before Preprocessing"></td>
+          <td><img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/6fbf9b54-7a2b-4e3d-9abd-baae150024e6" alt="After Preprocessing"></td>
      </tr>
      <tr>
           <td>Confusion Matrix</td>
