@@ -1,6 +1,8 @@
 # Mammogram-Dataset
 Breast Mammogram Dataset with Annotations
 
+### Dataset and Class Distributions
+
 PNG images of 496 Breast Mammograms collected from local hospitals in Sri Lanka are presented in the dataset.
 The dataset is already divided into a train and validation set of 80-20 ratio randomly. 
 
@@ -32,6 +34,8 @@ Annotations are done according to the following four classes:
 
 <img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/59dbbfc7-921d-420d-a383-3195f3028e58" alt="Class Distribution Chart" width="800px">
 
+### Annotations
+
 The bounding box annotations of the lesions are presented in:
 1. Yolo 1.1 format
 2. Coco 1.1 format
@@ -45,8 +49,16 @@ Bounding Box annotations example:
 <br>
 <img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/96c72078-5279-4c72-b855-d8d617ad7f4e" alt="BBox annotation example" width="500px">
 <br>
-To Pre-process data before training, ```preprocess.py``` could be used
+
+### Pre-Processing
+
+To Pre-process data before training, **preprocess.py** could be used.
+```
+from preprocess import crop, denoise, trunc_norm, clahe
+```
+
 Here is a sample pre-processing pipeline used during benchmarking
 
 ![pre-process](https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/d2b4cc70-f1d3-4b72-bb9b-8c8a946f946b)
 
+The preprocessing pipeline used is as follows: Crop --> Denoise (Morphological opening and closing) --> Normalize --> Contrast Enhance using CLAHE
