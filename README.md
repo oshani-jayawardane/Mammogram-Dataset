@@ -42,7 +42,7 @@ Segmentation Polygon Mask annotations are presented in:
 1. VGG format
 
 Bounding Box annotations example:
-<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/7493bb53-86b0-4741-8e8a-4a0404243bc9" alt="BBox annotation example" width="500px">
+<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/96c72078-5279-4c72-b855-d8d617ad7f4e" alt="BBox annotation example" width="300px">
 
 To Pre-process data before training, ```preprocess.py``` could be used
 Here is a sample pre-processing pipeline used during benchmarking
