@@ -40,10 +40,11 @@ The bounding box annotations of the lesions are presented in:
 
 Segmentation Polygon Mask annotations are presented in:
 1. VGG format
-
+<br>
 Bounding Box annotations example:
-<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/96c72078-5279-4c72-b855-d8d617ad7f4e" alt="BBox annotation example" width="300px">
-
+<br>
+<img src="https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/96c72078-5279-4c72-b855-d8d617ad7f4e" alt="BBox annotation example" width="500px">
+<br>
 To Pre-process data before training, ```preprocess.py``` could be used
 Here is a sample pre-processing pipeline used during benchmarking
 
