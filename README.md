@@ -5,10 +5,33 @@ PNG images of 496 Breast Mammograms collected from local hospitals in Sri Lanka 
 The dataset is already divided into a train and validation set of 80-20 ratio randomly. 
 
 Annotations are done according to the following four classes:
-1. Benign Mass
-2. Malignant Mass
-3. Benign Calcification
-4. Malignant Calcification
+
+<table border="1">
+  <tr>
+    <th></th>
+    <th>Malignant Mass</th>
+    <th>Benign Calcification</th>
+    <th>Benign Mass</th>
+    <th>Malignant Calcification</th>
+  </tr>
+  <tr>
+    <td>Train Set</td>
+    <td>245</td>
+    <td>174</td>
+    <td>155</td>
+    <td>79</td>
+  </tr>
+  <tr>
+    <td>Test Set</td>
+    <td>62</td>
+    <td>47</td>
+    <td>42</td>
+    <td>17</td>
+  </tr>
+</table>
+
+![class-dist2](https://github.com/oshani-jayawardane/Mammogram-Dataset/assets/66548835/59dbbfc7-921d-420d-a383-3195f3028e58)
+
 
 The bounding box annotations of the lesions are presented in:
 1. Yolo 1.1 format
